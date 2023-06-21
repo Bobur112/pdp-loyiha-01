@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  background-color: #212429;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+#homeSection .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-image: url("./images/bg.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#homeSection img {
+  border-radius: 50%;
+}
+
+.imageSection1 {
+  background-image: url("./images/moon3.jpg");
+}
+.imageSection {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  background-color: #212429;
+  color: white;
+}
+footer .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
 }
